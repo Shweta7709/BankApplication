@@ -10,6 +10,6 @@ This is for a single account
 public interface ATM{
 
 public abstract void getMyBalance();
-public abstract getCash(int amount);
+public abstract void getCash(int amount);
 
 }
